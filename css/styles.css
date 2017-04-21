@@ -1,0 +1,10 @@
+body {
+	background-color: #333333;
+}
+
+ #my-live-photo-target-element {
+	vertical-align: middle;
+  width: 270px;
+  height: 360px;
+  margin: auto;
+}
