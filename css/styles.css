@@ -1,5 +1,5 @@
 body {
-	background-color: #333333;
+	background-color: #CF4647;
 }
 
  #my-live-photo-target-element {
@@ -7,4 +7,14 @@ body {
   width: 270px;
   height: 360px;
   margin: auto;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
