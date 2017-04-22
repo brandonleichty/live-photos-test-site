@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Brandon Leichty</title>
         <meta charset="utf-8">
-        <meta name = "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
+        <meta content="width=device-width,initial-scale=1" name="viewport">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3a3e64">
+        <meta name="theme-color" content="#3a3e64">
     </head>
     <body>
       <header>
         <h1>Live Photos on the Web!</h1>
       </header>
-        <div id="my-live-photo-target-element"></div>
+      <div class="container">
+        <i class="material-icons" id="arrow">expand_more</i>
+      </div>
+      <div id="my-live-photo-target-element"></div>
+      <div id="my-live-photo-target-element-2"></div>
+      <footer>
+        <div id="footer">Created by Brandon Leichty using LivePhotosKit JS</div>
+      </footer>
     </body>
     <script src="https://cdn.apple-livephotoskit.com/lpk/1/livephotoskit.js"></script>
     <script src="js/script.js"></script>

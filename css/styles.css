@@ -1,13 +1,29 @@
 body {
-	background-color: #CF4647;
+	background-color: #3A3E64;
 }
 
- #my-live-photo-target-element {
+ #my-live-photo-target-element, #my-live-photo-target-element-2 {
 	vertical-align: middle;
   width: 270px;
   height: 360px;
   margin: auto;
 }
+
+
+#my-live-photo-target-element-2 {
+  margin-top: 90px;
+}
+
+#arrow {
+  color: rgba(255, 255, 255, 1);
+  font-size: 90px;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
 
 header h1 {
   color: white;
@@ -16,5 +32,24 @@ header h1 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 45px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+footer {
+  margin-top: 90px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#footer {
+  font-size: .72em;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Quicksand', sans-serif;
 }
